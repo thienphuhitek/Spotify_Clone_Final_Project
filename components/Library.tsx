@@ -11,7 +11,7 @@ const Library = () => {
           <p className="text-neutral-400 text-md font-medium">Your Library</p>
         </div>
         <AiOutlinePlus
-          onclick={onclick}
+          onClick={onClick}
           size={20}
           className="text-neutral-400 cursor-pointer hover:text-white transition "
         />
